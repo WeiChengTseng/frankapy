@@ -126,7 +126,7 @@ if __name__ == "__main__":
 
     pose = fa.get_pose()
 
-    pose.translation += [0.1, -0.25, -0.04]
+    pose.translation += [0.14, -0.25, -0.04]
     fa.goto_pose(pose, duration=10, ignore_virtual_walls=True)
 
 
